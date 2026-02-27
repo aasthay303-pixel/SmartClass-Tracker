@@ -1,58 +1,32 @@
-🚀 SmartClass Tracker (SCT) - README.md
-📌 Project Overview
-SmartClass Tracker ek modern, frontend-based prototype hai jo college campuses mein classrooms aur laboratories ki availability ko track karne ke liye banaya gaya hai. Aksar students ko khali rooms dhundne mein pareshani hoti hai, yeh system us utilization problem ko solve karta hai.
+🏫 SmartClass Tracker (SCT)
+SmartClass Tracker is a professional frontend-based prototype designed to optimize campus space utilization. It provides a real-time, manual check-in system for students to identify available classrooms and laboratories for study, projects, or practice.
 
-Is project ko HTML5, CSS3, aur Vanilla JavaScript ka use karke banaya gaya hai, bina kisi external framework (jaise React ya Bootstrap) ke.
+📌 Problem Statement
+On large campuses like ours, students often struggle to find empty rooms, leading to wasted time. This project serves as a practical campus utility tool to improve daily student life.
 
 ✨ Key Features
-Real-time Dashboard: Available, Occupied, aur Total rooms ka dynamic count dikhata hai.
+Dynamic Dashboard: Real-time tracking of Total, Free, and Occupied rooms.
 
-Dual Mode UI: Isme Dark Mode aur Light Mode dono ka support hai, jo user ki preference ke hisab se switch hota hai.
+Admin & Student Roles: A "Staff Login" (Password: admin123) allows for status updates, while the student view is "Read-Only".
 
-Role-Based Access:
+Advanced Theming: Supports both Dark and Light modes for user comfort.
 
-Student View: Sirf room status dekh sakte hain (Read Only).
+Quick Filtering: Interactive chips to filter by 'Laboratories' or 'Classrooms' without typing.
 
-Staff Login: Password (admin123) ke saath room status update karne ki power milti hai.
+Persistence: Uses localStorage to save room statuses and theme preferences even after page refresh.
 
-Quick Filters: Typing ki zaroorat nahi! User "Laboratories" ya "Classrooms" jaise chips par click karke search kar sakte hain.
+🛠️ Technology Stack
+HTML5: Semantic structure.
 
-Building Zones: Campus ko North Wing, South Wing, aur Tech Center jaise zones mein divide kiya gaya hai behtar navigation ke liye.
+CSS3: Responsive Grid and Flexbox layouts.
 
-Data Persistence: localStorage ka use kiya gaya hai taaki page refresh karne par bhi room status aur theme settings save rahein.
+Vanilla JavaScript: DOM manipulation and state management.
 
-🛠️ Tech Stack
-Frontend: HTML5, CSS3 (Flexbox & Grid)
+📂 Installation & Usage
+Clone the repository to your local machine.
 
-Scripting: Vanilla JavaScript (ES6+)
+Open index.html in any modern web browser.
 
-Icons: Emoji-based professional indicators
+To update a room, click Staff Login and enter the access code.
 
-Deployment: GitHub Pages
-
-📂 Project Structure
-Plaintext
-SmartClass-Tracker/
-├── index.html      # Main structure and UI logic
-├── assets/         # (Optional) Images or icons
-└── README.md       # Project documentation
-🚀 How to Run
-Is repository ko clone karein: git clone https://github.com/your-username/SmartClass-Tracker.git
-
-index.html file ko kisi bhi modern browser (Chrome, Edge, Firefox) mein open karein.
-
-Staff Access: Room status update karne ke liye password admin123 ka use karein.
-
-📈 Future Scope
-Backend Integration: Firebase ya Node.js ka use karke real-time multi-user synchronization add karna.
-
-QR Code Check-in: Har classroom ke bahar QR code scan karke automatic check-in setup karna.
-
-Automated Sensors: IoT sensors ke saath connect karna taaki manual entry ki zaroorat na pade.
-
-👩‍💻 Developed By
-TechOrbit
-
-Information Technology Student
-
-Focusing on Web Development & Problem Solving
+Developed by TechOrbit | 2026
