@@ -1,32 +1,37 @@
 🏫 SmartClass Tracker (SCT)
-SmartClass Tracker is a professional frontend-based prototype designed to optimize campus space utilization. It provides a real-time, manual check-in system for students to identify available classrooms and laboratories for study, projects, or practice.
+SmartClass Tracker is a professional frontend-based application developed to address the common campus challenge of space utilization. As an Information Technology student, I designed this prototype to provide a centralized platform where students can monitor the real-time occupancy of classrooms and laboratories. This tool effectively reduces the time spent searching for vacant study spaces, thereby improving campus efficiency.
 
-📌 Problem Statement
-On large campuses like ours, students often struggle to find empty rooms, leading to wasted time. This project serves as a practical campus utility tool to improve daily student life.
+🌐 Live Demo
+Check out the live application here: https://aasthay303-pixel.github.io/SmartClass-Tracker/
 
-✨ Key Features
-Dynamic Dashboard: Real-time tracking of Total, Free, and Occupied rooms.
+✨ Key Technical Features
+Dynamic Occupancy Dashboard: Provides a real-time visual summary of available, occupied, and total academic units.
 
-Admin & Student Roles: A "Staff Login" (Password: admin123) allows for status updates, while the student view is "Read-Only".
+Role-Based Access Control (RBAC): Implements a secure dual-view system. Students have a "Read-Only" interface for live tracking, while staff can unlock administrative controls using a security code (admin123) to manually update room statuses.
 
-Advanced Theming: Supports both Dark and Light modes for user comfort.
+Adaptive UI Theming: Features a native Dark/Light Mode toggle, allowing users to switch themes based on their environmental lighting and personal preference.
 
-Quick Filtering: Interactive chips to filter by 'Laboratories' or 'Classrooms' without typing.
+Quick-Access Filtering: Replaces traditional search bars with interactive "Category Chips" for Laboratories, Classrooms, and Audit Halls, ensuring a faster user experience on mobile devices.
 
-Persistence: Uses localStorage to save room statuses and theme preferences even after page refresh.
+Persistent Data Management: Utilizes the browser's localStorage API to preserve user theme settings and room occupancy data across sessions, ensuring reliability without a backend database.
 
-🛠️ Technology Stack
-HTML5: Semantic structure.
+🛠️ Implementation Details
+This project was developed with a focus on modern web standards and responsive UI/UX principles:
 
-CSS3: Responsive Grid and Flexbox layouts.
+HTML5 & CSS3: Utilized CSS Grid and Flexbox for a robust, mobile-first design that works on desktops, tablets, and phones.
 
-Vanilla JavaScript: DOM manipulation and state management.
+Vanilla JavaScript (ES6+): Developed clean, modular logic for DOM manipulation and state management without the need for external frameworks.
 
-📂 Installation & Usage
-Clone the repository to your local machine.
+Data Structure: Uses a JavaScript array of room objects containing properties like id, room name, building name, floor, and status.
 
-Open index.html in any modern web browser.
+🚀 How to Use
+View Status: Students can browse the grid to see which rooms are marked as "Free" (Green) or "Occupied" (Red).
 
-To update a room, click Staff Login and enter the access code.
+Filter: Use the category chips or the building dropdown to find specific labs or classrooms.
 
-Developed by TechOrbit | 2026
+Update (Staff Only): Click on "Staff Login," enter the password, and toggle the occupancy status of any room.
+
+👩‍💻 Developed By
+TechOrbit Team
+
+Information Technology Student (2026)
